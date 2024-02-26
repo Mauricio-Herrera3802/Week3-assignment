@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Week 3 assignment</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  
+  <body>
+<!-- create nav menu to navigate between the 2 pages -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark fs-2">
+  <a class="navbar-brand" href="Index2.html">  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="Index2.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Information</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="areas.html">Areas of Law</a>
+      </li>
+
+      </li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropdown
+      </a>
+
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+        <a class="dropdown-item" href="Index2.html">Home</a>
+        <a class="dropdown-item" href="contact.html">Information</a>
+      </div>
+  <li>
+    </ul>
+  </div>
+</nav>
+
+<Div class="fs-1 mt-5 mb-5 text-center">
+  The Law Firm
+</Div>
+
+<!-- Creates a div with 3 columns using card ID -->
+<div class="container text-center mt-5 mb-5 fs-2">
+  <div class="row">
+    <div class="col-md">
+      <div id="card-1" class="bg-secondary">
+        <img
+          src="https://cdn.shortpixel.ai/spai/w_200+q_lossy+ret_img+to_webp/hlgnwa.com/wp-content/uploads/2017/03/Aaron.jpg"
+          class="card-img-top"
+          alt=" "
+          width="100"
+       
+        />
+        <div class="card-body">
+          <h4 class="card-title">Aaron Cash</h4>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md">
+      <div id="card-2" class="bg-secondary">
+        <img
+          src="https://cdn.shortpixel.ai/spai/w_200+q_lossy+ret_img+to_webp/hlgnwa.com/wp-content/uploads/2017/03/MAURICIO-A-HERRERA.jpg"
+          class="card-img-top"
+          alt=" "
+          width="100"
+          
+        />
+        <div class="card-body">
+          <h4 class="card-title">Mauricio Herrera</h4>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="col-md">
+      <div id="card-3" class="bg-secondary">
+        <img
+          src="https://cdn.shortpixel.ai/spai/w_214+q_lossy+ret_img+to_webp/hlgnwa.com/wp-content/uploads/2021/12/David-Lee_009R-e1697683556166.jpg"
+          class="card-img-top"
+          alt=" "
+          />
+        <div class="card-body">
+          <h4 class="card-title">David Lee</h4>
+        </div>
+      </div>
+    </div>
+
+   <!-- creates a div to show areas of law --> 
+    <div class="fs-1 mb-5 mt-5 bg-light">
+      Areas of Law
+    </div>
+
+    <!-- Create a container with areas in the immigration law using 2 columns per grid-->
+    <div class="container">
+      <div class="container text-center mb-5 fs-4 ">
+        <div class="row"><h1>Immigration Law</h1></div>
+
+        <div class="row">
+          <div class="col-lg-6">Family Petitions</div>
+          <div class="col-lg-6">Asylum</div>
+          <div class="col-lg-6">Naturalization</div>
+          <div class="col-lg-6">Remove Conditions</div>
+          <div class="col-lg-6">Renew LPR</div>
+          <div class="col-lg-6">TPS</div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">Renew EAD</div>
+          <div class="col-lg-6">Removal Defense</div>
+          <div class="col-lg-6">DACA</div>
+          <div class="col-lg-6">Child Born Abroad</div>
+          <div class="col-lg-6">Fiancé Petition</div>
+          <div class="col-lg-6">Advance Parole</div>
+        </div>
+      </div>
+
+      <!-- Create a container with areas in the Family law using 3 columns per grid-->
+      <div id=" " class="container text-center mb-5 fs-4">
+        <div class="row"><h1>Family Law</h1></div>
+
+        <div class="row">
+          <div class="col-md-4">Divorce</div>
+          <div class="col-md-4">Paternity</div>
+          <div class="col-md-4">Child Support and Custody</div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">Guardianship</div>
+          <div class="col-md-4">Adoption</div>
+          <div class="col-md-4">Annulment</div>
+        </div>
+      </div>
+
+
+      <!-- Create a container with areas in the Criminal law using 3 columns-->
+      <div id=" " class="container text-center mb-5 fs-3">
+        <div class="row"><h1>Criminal Law</h3></div>
+
+        <div class="row p-1">
+          <div class="col-md-4">Felonies</div>
+          <div class="col-md-4">Misdemeanors</div>
+          <div class="col-md-4">Traffic Offenses</div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+ </body>
+</html>

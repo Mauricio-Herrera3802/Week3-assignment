@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areas of Law</title>
+
+    <link
+    rel="stylesheet"
+    href="./node_modules/bootstrap/dist/css/bootstrap.css"
+  />
+</head>
+<body>
+
+  <!-- Create a nav to allow user to return to home page-->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fs-2">
+    <a class="navbar-brand" href="Index2.html"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controle="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="Index2.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Information</a>
+        </li>
+
+        <li class="nav-item active">
+            <a class="nav-link" href="areas.html">Areas of Law<span class="sr-only">(current)</span></a>
+        </li>
+
+        <!-- Create drop down menu -- COULDN"T ACTIVATE IT-->
+        </li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="Index2.html">Home</a>
+            <a class="dropdown-item" href="contact.html">Information</a>
+          </div>
+     
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="fs-1 text-center mb-4">
+    Areas of Law by Attorney
+  </div>
+    
+  <!-- Create table of Attorneys and areas of practice -->
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Attorney</th>
+        <th scope="col">Area of Law</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Aaron Cash</td>
+        <td>Criminal and Immigration</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Mauricio Herrera</td>
+        <td>Immigration</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>David Lee</td>
+        <td>Domestic and Immigration</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
